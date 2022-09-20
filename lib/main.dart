@@ -8,7 +8,7 @@ import 'package:quiver/async.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 Future<void> main() async {
-  // main 関数内で非同期処理を呼び出すための設定
+  // main 関数内で非同期処理を呼び出すため
   WidgetsFlutterBinding.ensureInitialized();
   // デバイスで使用可能なカメラのリストを取得
   final cameras = await availableCameras();
