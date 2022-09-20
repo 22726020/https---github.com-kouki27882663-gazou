@@ -59,7 +59,7 @@ class _BlazePageState extends State<BlazePage> {
       _poseFound = true;
     });
     
-//閾値をピクセル値以上に設定する
+//閾値をピクセル値以上に設定
     var EllorXlist = listx.where((valuex) => valuex > deviceWidth+100 || 0 > valuex).toList();
     var EllorYlist = listy.where((valuey) => valuey > deviceHeight+100 || 0 > valuey).toList();
     print(listx);
