@@ -12,7 +12,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // デバイスで使用可能なカメラのリストを取得
   final cameras = await availableCameras();
-  // 利用可能なカメラのリストから特定のカメラを取得あ
+  // 利用可能なカメラのリストから特定のカメラを取得
   final firstCamera = cameras.first;
   runApp(MyApp(camera: firstCamera));
 }
