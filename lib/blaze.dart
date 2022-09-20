@@ -11,7 +11,7 @@ class BlazePage extends StatefulWidget {
   final CameraDescription camera;
   final String imagePath;
 
-  //パスも一緒に受け取る
+  //パスも一緒に受け取る！
   @override
   State<BlazePage> createState() => _BlazePageState();
 }
